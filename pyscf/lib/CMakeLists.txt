@@ -154,7 +154,7 @@ add_subdirectory(ri)
 add_subdirectory(pbc)
 add_subdirectory(agf2)
 
-option(ENABLE_SMD "Compiling SMD Fortran code" OFF)
+option(ENABLE_SMD "Compiling SMD Fortran code" ON)
 if(ENABLE_SMD)
   add_subdirectory(solvent)
 endif(ENABLE_SMD)
